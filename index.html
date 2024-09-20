@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NB-REAL Workshop 2025</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- DaisyUI CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="bg-base-200 text-base-content">
+    <!-- Navbar -->
+    <nav class="navbar bg-base-100 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a class="text-xl font-bold" href="#">NB-REAL Workshop 2025</a>
+            <button class="btn btn-square btn-ghost">
+                <label class="swap swap-rotate">
+                    <input type="checkbox" onchange="document.documentElement.classList.toggle('dark')">
+                    <!-- Sun Icon -->
+                    <svg class="swap-on fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M5.64 17.64A9 9 0 1117.64 5.64 9 9 0 015.64 17.64z"></path>
+                    </svg>
+                    <!-- Moon Icon -->
+                    <svg class="swap-off fill-current w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M21.64 13.5A9 9 0 0110.5 2.36 9 9 0 1010.5 24a9 9 0 0011.14-10.5z"></path>
+                    </svg>
+                </label>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen" style="background-image: url('https://images.unsplash.com/photo-1556567567-c6f2b7dbd15b'); background-size: cover; background-position: center;">
+        <div class="hero-overlay bg-opacity-70 bg-base-200"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl font-bold">NB-REAL Workshop 2025</h1>
+                <p class="mb-5 text-xl">Nordic-Baltic Responsible Evaluation and Alignment of Language Models</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-10 px-5">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">About the Workshop</h2>
+            <p class="mb-3">
+                This workshop focuses on the responsible development, evaluation, and alignment of Large Language Models (LLMs) for Nordic and Baltic languages.
+            </p>
+            <ul class="list-disc ml-5 mb-5">
+                <li>Develop ethically-grounded, challenging benchmarks in Nordic and Baltic languages.</li>
+                <li>Create and encourage the development of culturally sensitive alignment datasets.</li>
+                <li>Promote research and collaboration on responsible LLM alignment techniques.</li>
+                <li>Discuss sustainable and ethical methods for collecting alignment data.</li>
+                <li>Explore societal implications and governance challenges of LLM development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Organizers Section -->
+    <section class="py-10 px-5 bg-base-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">Workshop Organizers</h2>
+            <ul class="space-y-6">
+                <li>
+                    <h3 class="text-xl font-semibold">Hafsteinn Einarsson</h3>
+                    <p>Associate Professor in Computer Science, University of Iceland</p>
+                    <p>Email: <a href="mailto:hafsteinne@hi.is" class="text-blue-500">hafsteinne@hi.is</a></p>
+                </li>
+                <li>
+                    <h3 class="text-xl font-semibold">Annika Simonsen</h3>
+                    <p>PhD Student, University of Iceland</p>
+                    <p>Email: <a href="mailto:annika@hi.is" class="text-blue-500">annika@hi.is</a></p>
+                </li>
+                <li>
+                    <h3 class="text-xl font-semibold">Dan Saattrup Nielsen</h3>
+                    <p>Senior AI Specialist, Alexandra Institute</p>
+                    <p>Email: <a href="mailto:dan.nielsen@alexandra.dk" class="text-blue-500">dan.nielsen@alexandra.dk</a></p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="py-10 px-5">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">Program Design</h2>
+            <p class="mb-3">Half-day workshop on March 2, 2025 (pre-conference). Hybrid event with both on-site and online participation available.</p>
+            <div class="overflow-x-auto">
+                <table class="table-auto w-full text-left">
+                    <thead>
+                        <tr>
+                            <th class="px-4 py-2">Time</th>
+                            <th class="px-4 py-2">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-base-100">
+                            <td class="border px-4 py-2">09:00-09:15</td>
+                            <td class="border px-4 py-2">Opening Remarks</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">09:15-10:00</td>
+                            <td class="border px-4 py-2">Keynote Speaker (45 min)</td>
+                        </tr>
+                        <tr class="bg-base-100">
+                            <td class="border px-4 py-2">10:00-10:20</td>
+                            <td class="border px-4 py-2">Paper Presentation 1 (20 min)</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">10:20-10:40</td>
+                            <td class="border px-4 py-2">Paper Presentation 2 (20 min)</td>
+                        </tr>
+                        <tr class="bg-base-100">
+                            <td class="border px-4 py-2">10:40-10:50</td>
+                            <td class="border px-4 py-2">Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">10:50-11:10</td>
+                            <td class="border px-4 py-2">Paper Presentation 3 (20 min)</td>
+                        </tr>
+                        <tr class="bg-base-100">
+                            <td class="border px-4 py-2">11:10-11:20</td>
+                            <td class="border px-4 py-2">Closing Remarks and Future Directions (10 min)</td>
+                        </tr>
+                        <tr>
+                            <td class="border px-4 py-2">11:20-13:00</td>
+                            <td class="border px-4 py-2">Poster Presentations</td>
+                        </tr>
+                        <tr class="bg-base-100">
+                            <td class="border px-4 py-2">13:00</td>
+                            <td class="border px-4 py-2">Lunch</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call for Papers Section -->
+    <section id="call-for-papers" class="py-10 px-5 bg-base-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">Call for Papers</h2>
+            <p class="mb-3">We invite submissions on topics including, but not limited to:</p>
+            <ul class="list-disc ml-5 mb-5">
+                <li>Ethical benchmarks for evaluating LLMs in Nordic and Baltic languages</li>
+                <li>Methods for creating culturally sensitive and inclusive evaluation datasets</li>
+                <li>Responsible techniques for generating or collecting alignment data</li>
+                <li>Challenges and solutions in ethical LLM alignment for less-resourced languages</li>
+                <li>Case studies on responsible LLM evaluation or alignment projects</li>
+                <li>Ethical considerations and governance frameworks</li>
+                <li>Comparative studies of LLM performance and fairness</li>
+                <li>Innovative approaches to leveraging limited language resources</li>
+            </ul>
+            <p class="mb-3">
+                Submissions can be long papers (8 pages) or short papers (4 pages) in the ACL format. All submissions will undergo peer review by the program committee.
+            </p>
+        </div>
+    </section>
+
+    <!-- Important Dates Section -->
+    <section id="important-dates" class="py-10 px-5">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">Important Dates</h2>
+            <ul class="list-disc ml-5 mb-5">
+                <li>Workshop paper submission deadline: <strong>December 16, 2024</strong></li>
+                <li>Notification of acceptance: <strong>January 13, 2025</strong></li>
+                <li>Camera-ready papers due: <strong>February 3, 2025</strong></li>
+                <li>Workshop date: <strong>March 2, 2025</strong></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Expected Outcomes Section -->
+    <section class="py-10 px-5 bg-base-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-5">Expected Outcomes and Impact</h2>
+            <p class="mb-3">
+                The NB-REAL workshop aims to:
+            </p>
+            <ul class="list-disc ml-5 mb-5">
+                <li>Establish a collaborative network of researchers and practitioners.</li>
+                <li>Create a roadmap for developing comprehensive, ethical evaluation benchmarks.</li>
+                <li>Publish a collection of high-quality papers advancing the state of the art.</li>
+                <li>Formulate recommendations for ethical and sustainable practices.</li>
+                <li>Initiate an ongoing dialogue between researchers, industry professionals, and policymakers.</li>
+            </ul>
+            <p>
+                By addressing the unique challenges and opportunities in responsible LLM evaluation and alignment for Nordic and Baltic languages, NB-REAL will foster collaboration and advance the field in ways that benefit both the regional and global NLP communities.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <div class="container mx-auto text-center">
+            <p>© 2025 NB-REAL Workshop Committee</p>
+        </div>
+    </footer>
+</body>
+</html>
